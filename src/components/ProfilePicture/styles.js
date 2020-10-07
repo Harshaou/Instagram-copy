@@ -2,12 +2,15 @@ import {StyleSheet} from 'react-native';
 
 const styles = StyleSheet.create({
   container: {
-    flex: 1,
+    margin: 7,
+    borderWidth: 3,
+    borderColor: '#c449e6',
+    borderRadius: 38,
   },
   profileImg: {
-    height: 80,
-    width: 80,
-    borderRadius: 40,
+    borderWidth: 3,
+    borderColor: 'white',
+    borderRadius: 35,
   },
 });
 
